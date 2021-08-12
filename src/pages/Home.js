@@ -20,7 +20,11 @@ const Home = () => {
           </div>
           <div className="content contentTwo">
           <h1>Welcome to my Web site</h1>
-          <p>Assalomu Alaykum mening saytimga xush kelibsiz !!!</p>
+          <p>Assalamu Alaykum to all !!!</p>
+          </div>
+          <div className="content contentThree">
+          <h1>Welcome to my Web site</h1>
+          <p>Ассаламу Алайкум всем!!!</p>
           </div>
           
         </Slider>

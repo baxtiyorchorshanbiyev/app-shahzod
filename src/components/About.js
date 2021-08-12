@@ -15,7 +15,8 @@ const About = () => {
             <h3>Expert Web developer & Designer</h3>
             <h1>About Me</h1>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus sequi sapiente sit! Distinctio a quam iure reiciendis vero commodi doloribus facere nisi ex quisquam error labore, quis, dolorum quia aspernatur unde dolores praesentium consequuntur magni! Ab dolorem facilis temporibus! Maiores?
+            I am Ashurov Shahzod, I make logos, contact me if you need a logo.
+            Thank you for your attention
             </p>
             <button type="button" className="btn">Download Cv</button>
           </div>
