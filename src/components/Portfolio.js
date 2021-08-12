@@ -5,11 +5,8 @@ const Portfolio = () => {
   const [posts, setPosts] = useState([]);
   const [err, setErr] = useState('');
   const [loading, setLoading] = useState(true);
-  
-  console.log("AAA");
   useEffect(() =>{
-    const proxyUrl = "https://www.pythonanywhere.com/";
-    axios.get(`${proxyUrl}https://baxtiyor9703.pythonanywhere.com/portfolio-data/?format=json`)
+    axios.get(`https://baxtiyor9703.pythonanywhere.com/portfolio-data/?format=json`)
     .then((res) =>{
       console.log(res.data);
       setPosts(res.data);
